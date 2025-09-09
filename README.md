@@ -1,1 +1,1 @@
-# This Rep is for Dig2500 Fundamentals of Interactive Design
+# This Rep is for Dig2500C Fundamentals of Interactive Design
