@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    font-family: 'Noto Serif JP', serif;
+    background-image: url('paper-texture.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    background: #b80000;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+nav {
+    background: #8c0000;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition:  0.3s, padding 0.2s;
+}
+
+nav a:hover {
+    background: #660000;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+img {
+    border-radius: 12px;
+}
+
+h2 {
+    text-align: center;
+    border-bottom: 2px solid #b80000;
+    padding-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin: 7px 0;
+    border: 2px solid #b80000;
+    border-radius: 5px;
+    background: #fff7f4;
+}
+
+button {
+    background: #b80000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+button:hover {
+    background: #8c0000;
+}
+
+footer {
+    background: linear-gradient(#8c0000, #5c0000);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 15px;
+}
